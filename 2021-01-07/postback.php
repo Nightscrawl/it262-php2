@@ -14,14 +14,30 @@ if( isset($_POST['FirstName']) ) { // show data
 
     echo '
 
-        <form action="" method="POST">        
+        <form action="" method="POST">
+
             <p>First Name: <input type="text" name="FirstName" /></p>
 
-            <p><input type="radio" name="FavColor" value="red" /> Red</p>
-            <p><input type="radio" name="FavColor" value="blue" /> Blue</p>
-            <p><input type="radio" name="FavColor" value="yellow" /> Yellow</p>
+            <fieldset>
+                <legend>Favorite Color</legend>                
+
+                <p><input type="radio" name="FavColor" value="red" /> Red</p>
+                <p><input type="radio" name="FavColor" value="blue" /> Blue</p>
+                <p><input type="radio" name="FavColor" value="yellow" /> Yellow</p>
+            
+            </fieldset>
+
+            <fieldset>
+                <legend>Favorite Pizza Toppings</legend>
+
+                <p><input type="checkbox" name="FavPizzaToppings[]" value="cheese" /> Cheese</p>
+                <p><input type="checkbox" name="FavPizzaToppings[]" value="salami" /> Salami</p>
+                <p><input type="checkbox" name="FavPizzaToppings[]" value="onions" /> Onions</p>
+            
+            </fieldset>
 
             <p><input type="submit" value="Submit" /></p>
+
         </form>
     
     ';
