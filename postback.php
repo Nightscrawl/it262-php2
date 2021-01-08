@@ -13,7 +13,7 @@ if( isset($_POST['FirstName']) ) { // show data
         <form action="" method="POST">
             <p>First Name: <input type="text" name="FirstName" /></p>
             <input type="submit" />
-        </form>    
+        </form>
     
     ';
 
