@@ -22,13 +22,15 @@ class Car {
 }
 
 
-$myCar = new Car("Toyota", "Prius", "blue", 100);
+// creates array of car objects
+$cars[] = new Car("Toyota", "Prius", "blue", 100);
+$cars[] = new Car("Hummer", "H3", "yellow", 5);
+$cars[] = new Car("Ford", "Mustang", "red", 80);
 
-// echo $myCar->mileage;  // -> like dot syntax
+// iterates thru array and shows each item
+foreach($cars as $myCar) {
 
-// echo '<pre>';
-// var_dump($myCar);
-// echo '</pre>';
+    echo "<p>My car is a $myCar->color $myCar->make $myCar->model. It gets $myCar->mileage mpg!</p>";
 
-echo "<p>My car is a $myCar->color $myCar->make $myCar->model. It gets $myCar->mileage mpg!</p>";
+}
 // My car is a Blue Toyota Prius. It gets 100 mpg!
