@@ -44,3 +44,4 @@ $average = $total/$carCount;
 $average = number_format($average, 2);
 
 echo "<p>There are $carCount cars, and the average mpg is $average.</p>";
+// There are 3 cars, and the average mpg is 61.67.
