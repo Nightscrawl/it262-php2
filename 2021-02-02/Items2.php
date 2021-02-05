@@ -21,20 +21,20 @@ class Item {
 } // end of Item class
 
 
-// $myItem = new Item(1, "Taco", "Our tacos are awesome", 4.95);
+// $myItem = new Item(1, 'Taco', 'Our tacos are awesome', 4.95);
 // $items[] = $myItem;
 
-// $myItem = new Item(2, "Sundae", "Our sundaes are awesome", 3.95);
+// $myItem = new Item(2, 'Sundae', 'Our sundaes are awesome', 3.95);
 // $items[] = $myItem;
 
-// $myItem = new Item(3, "Salad", "Our salads are awesome", 5.95);
+// $myItem = new Item(3, 'Salad', 'Our salads are awesome', 5.95);
 // $items[] = $myItem;
 
-$items[] = new Item(1, "Taco", "Our tacos are awesome", 4.95);
+$items[] = new Item(1, 'Taco', 'Our tacos are awesome', 4.95);
 
-$items[] = new Item(2, "Sundae", "Our sundaes are awesome", 3.95);
+$items[] = new Item(2, 'Sundae', 'Our sundaes are awesome', 3.95);
 
-$items[] = new Item(3, "Salad", "Our salads are awesome", 5.95);
+$items[] = new Item(3, 'Salad', 'Our salads are awesome', 5.95);
 
 
 echo "<pre>";
