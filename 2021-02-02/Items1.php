@@ -19,3 +19,10 @@ class Item {
     } // end constructor for Item
 
 } // end of Item class
+
+
+$myItem = new Item(1, 'Taco', 'Our tacos are awesome', 4.95);
+
+echo "<pre>";
+    var_dump($myItem);
+echo "</pre>";

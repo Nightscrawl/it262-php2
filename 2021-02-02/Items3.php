@@ -29,7 +29,7 @@ class Item {
 
 
 $myItem = new Item(1, 'Taco', 'Our tacos are awesome', 4.95);
-$myItem->addExtra('sour cream');
+$myItem->addExtra('sour cream'); // pass in item through addExtra which will throw it into the extras array
 $myItem->addExtra('cheese');
 $myItem->addExtra('guacamole');
 $items[] = $myItem;
