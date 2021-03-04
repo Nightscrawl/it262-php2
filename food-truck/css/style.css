@@ -1,0 +1,146 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+    
+html {
+    font-size: 16px;
+}
+    
+body {
+    font-size: 1rem;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.container {
+    min-height: 100vh;
+    display: grid;
+
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: 
+        "header"
+        "content"
+        "footer";
+
+    gap: 0px;
+}
+
+
+
+
+
+.content {
+    background-color: #e5e5e5;
+}
+
+footer {
+    background-color: black;
+}
+
+header, footer {
+    text-align: center;
+}
+
+header {
+    padding: 50px 0;
+    background: black url(../img/pizza-header.jpg) repeat;
+    background-size: 25%;
+    color: white;
+}
+
+footer {
+    padding: 10px 0;
+    font-size: 0.6875rem;
+    text-transform: uppercase;
+}
+
+footer, footer a {
+    color: white;
+}
+
+.content {
+    padding: 50px 0;
+}
+
+.info {
+    width: 810px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.info p {
+    line-height: 1.5rem;
+    margin-bottom: .8rem;
+}
+
+.order-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* background-color: slateblue; */
+}
+
+.order {
+    width: 600px;
+    margin-right: 5px;
+    /* background-color: teal; */
+}
+
+.total {
+    width: 200px;
+    margin-left: 5px;
+    /* background-color: violet; */
+}
+
+.order, .total {
+    padding: 10px;
+}
+
+
+
+
+
+.pizza-box {
+    margin-bottom: 10px;
+    padding: 10px;
+    line-height: 1.5rem;
+    border-radius: 5px;
+}
+
+input[type=submit] {
+    padding: 5px 8px;
+    border-radius: 3px;
+}
+
+.pizza-box, input[type=submit] {
+    border: 1px solid #a7a7a7;
+    background-color: white;
+}
+
+select {
+    padding: 2px;
+}
+
+label {
+    font-size: 1.5rem;
+}
+
+
+.title {
+    font-size: 3.5rem;
+}
+
+
+
+
+
+
